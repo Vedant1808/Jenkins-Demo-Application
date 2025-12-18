@@ -29,6 +29,11 @@ pipeline {
                 archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
             }
         }
+        stage("Completed"){
+            steps{
+            echo "Completed guys"
+            }
+        }
     }
 
     post {
