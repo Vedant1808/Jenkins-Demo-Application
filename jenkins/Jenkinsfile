@@ -36,7 +36,7 @@ pipeline {
             echo "Build successful. JAR archived."
         }
         failure {
-            echo "Build failed."
+            echo "Build failed.?"
         }
     }
 }
